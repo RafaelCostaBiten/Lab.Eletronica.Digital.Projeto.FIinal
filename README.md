@@ -1,4 +1,4 @@
-# Lab.Eletronica.Digital.Projeto.FIinal
+# Lab.Eletronica.Digital.Projeto.Final
 Projeto de final da disciplina Laboratório de Eletrônica Digital, IFMG Campus Formiga.
 
 ```c++
