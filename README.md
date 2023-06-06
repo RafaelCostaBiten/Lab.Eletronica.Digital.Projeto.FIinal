@@ -60,3 +60,9 @@ long readLongFromEEPROM(int address) {  // Função para ler um valor de 4 bytes
   return ((long)EEPROM.read(address) << 24) + ((long)EEPROM.read(address + 1) << 16) + ((long)EEPROM.read(address + 2) << 8) + (long)EEPROM.read(address + 3);
 }
 ```
+![Projeto final Lab  Eletrônica Digital_page-0001](https://github.com/RafaelCostaBiten/Lab.Eletronica.Digital.Projeto.Final/assets/135740965/5cc91172-dfc6-4668-af7b-57a0d55203d5)
+
+![IMG_20230606_160007](https://github.com/RafaelCostaBiten/Lab.Eletronica.Digital.Projeto.Final/assets/135740965/800c67c6-f7fd-41b8-a802-02119b2c2d1b)
+
+
+
