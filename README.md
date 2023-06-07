@@ -35,7 +35,7 @@ void loop() {  // Parte lógica
       IrReceiver.resume();
     }
 
-  } else if (digitalRead(8) == 0) {  // Modo emissão
+  } else {  // Modo emissão
 
     if (digitalRead(5) == 1) {  // Emite instrução gravada no botão 1
       IrSender.sendNECRaw(readLongFromEEPROM(0), 1);
@@ -59,6 +59,7 @@ void writeLongIntoEEPROM(int address, long number) {  // Função para escrever 
 long readLongFromEEPROM(int address) {  // Função para ler um valor de 4 bytes na memória do Arduino.
   return ((long)EEPROM.read(address) << 24) + ((long)EEPROM.read(address + 1) << 16) + ((long)EEPROM.read(address + 2) << 8) + (long)EEPROM.read(address + 3);
 }
+
 ```
 ![Projeto final Lab  Eletrônica Digital_page-0001](https://github.com/RafaelCostaBiten/Lab.Eletronica.Digital.Projeto.Final/assets/135740965/5cc91172-dfc6-4668-af7b-57a0d55203d5)
 
