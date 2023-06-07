@@ -31,7 +31,7 @@ void loop() {  // Parte lógica
       IrReceiver.resume();
     }
 
-  } else if (digitalRead(8) == 0) {  // Modo emissão
+  } else {  // Modo emissão
 
     if (digitalRead(5) == 1) {  // Emite instrução gravada no botão 1
       IrSender.sendNECRaw(readLongFromEEPROM(0), 1);
