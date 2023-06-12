@@ -11,7 +11,7 @@ void setup() {  // Declaração de entradas e saídas
   pinMode(6, INPUT);                                     // Botão 2
   pinMode(7, INPUT);                                     // Botão 3
   pinMode(8, INPUT);                                     // Gravar/Emitir
-  IrReceiver.begin(9, ENABLE_LED_FEEDBACK);              // Receptor infravermelho
+  IrReceiver.begin(9);                                   // Receptor infravermelho
   IrSender.begin(10, ENABLE_LED_FEEDBACK, LED_BUILTIN);  // LED infravermelho
 }
 
@@ -59,7 +59,6 @@ void writeLongIntoEEPROM(int address, long number) {  // Função para escrever 
 long readLongFromEEPROM(int address) {  // Função para ler um valor de 4 bytes na memória do Arduino.
   return ((long)EEPROM.read(address) << 24) + ((long)EEPROM.read(address + 1) << 16) + ((long)EEPROM.read(address + 2) << 8) + (long)EEPROM.read(address + 3);
 }
-
 ```
 ![Projeto final Lab  Eletrônica Digital_page-0001](https://github.com/RafaelCostaBiten/Lab.Eletronica.Digital.Projeto.Final/assets/135740965/5cc91172-dfc6-4668-af7b-57a0d55203d5)
 
