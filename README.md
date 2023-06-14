@@ -62,6 +62,7 @@ long readLongFromEEPROM(int address) {  // Função para ler um valor de 4 bytes
 ```
 
 ![schematic](https://github.com/RafaelCostaBiten/Lab.Eletronica.Digital.Projeto.Final/blob/764df4915ce48923a80ccaa916a6af9400c3a5d4/schematic.jpg)
+![Tinkercad_simulation](https://github.com/RafaelCostaBiten/Lab.Eletronica.Digital.Projeto.Final/blob/7d109b2425f56224447e1d4071a5c75f44872f60/Tikercad_simulation.png)
 
 ![image1](https://github.com/RafaelCostaBiten/Lab.Eletronica.Digital.Projeto.Final/blob/764df4915ce48923a80ccaa916a6af9400c3a5d4/image1.jpg)
 ![image2](https://github.com/RafaelCostaBiten/Lab.Eletronica.Digital.Projeto.Final/blob/764df4915ce48923a80ccaa916a6af9400c3a5d4/image2.jpg)
