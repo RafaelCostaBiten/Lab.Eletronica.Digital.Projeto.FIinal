@@ -1,5 +1,5 @@
 # Lab.Eletronica.Digital.Projeto.Final
-Projeto de final da disciplina Laboratório de Eletrônica Digital, IFMG Campus Formiga.
+Projeto final da disciplina de Laboratório de Eletrônica Digital, IFMG Campus Formiga.
 
 ```c++
 #include <IRremote.h>  // Biblioteca necessária para emitir e receber sinais utilizando infravermelho
